@@ -75,6 +75,7 @@ fun HomeScreen(innerPadding:PaddingValues) {
             ) {
                 Text (
                     text = "Hola Carlos",
+                    color = Color.Black,
                     fontWeight = FontWeight.Bold
                 )
                 Text (
