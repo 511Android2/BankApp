@@ -121,6 +121,7 @@ fun HomeScreen(innerPadding:PaddingValues) {
                     )
                     Text (
                         text = "Actividad",
+                        color = Color.Black,
                         fontWeight = FontWeight.Bold
                     )
                     Text (
@@ -155,6 +156,7 @@ fun HomeScreen(innerPadding:PaddingValues) {
                         )
                         Text (
                             text = "$280.99",
+                            color = Color.Black,
                             fontWeight = FontWeight.Bold
                         )
                     }
@@ -179,6 +181,7 @@ fun HomeScreen(innerPadding:PaddingValues) {
                         )
                         Text (
                             text = "$280.99",
+                            color = Color.Black,
                             fontWeight = FontWeight.Bold
                         )
                     }
