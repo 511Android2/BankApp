@@ -63,7 +63,8 @@ fun HomeScreen(innerPadding:PaddingValues) {
                 Icon(
                     imageVector = Account_circle,
                     contentDescription = "Icono de perfil",
-                    modifier = Modifier.size(30.dp)
+                    modifier = Modifier.size(30.dp),
+                    tint = Color.Black
                 )
             }
             Spacer(modifier = Modifier.width(5.dp))
@@ -79,7 +80,7 @@ fun HomeScreen(innerPadding:PaddingValues) {
                 Text (
                     text = "Bienvenido!",
                     fontSize = 13.sp,
-                    color = Color.Gray,
+                    color = Color.Black,
                     fontWeight = FontWeight.Light
                 )
             }
@@ -115,7 +116,8 @@ fun HomeScreen(innerPadding:PaddingValues) {
                         imageVector = PersonBoundingBox,
                         contentDescription = "Icono de actividad",
                         modifier = Modifier
-                            .size(30.dp)
+                            .size(30.dp),
+                        tint = Color.Black
                     )
                     Text (
                         text = "Actividad",
@@ -124,7 +126,7 @@ fun HomeScreen(innerPadding:PaddingValues) {
                     Text (
                         text = "de la semana",
                         fontSize = 13.sp,
-                        color = Color.Gray,
+                        color = Color.Black,
                         fontWeight = FontWeight.Light
                     )
                 }
@@ -148,7 +150,7 @@ fun HomeScreen(innerPadding:PaddingValues) {
                         Text (
                             text = "Ventas",
                             fontSize = 13.sp,
-                            color = Color.Gray,
+                            color = Color.Black,
                             fontWeight = FontWeight.Light,
                         )
                         Text (
@@ -172,7 +174,7 @@ fun HomeScreen(innerPadding:PaddingValues) {
                         Text (
                             text = "Ganancias",
                             fontSize = 13.sp,
-                            color = Color.Gray,
+                            color = Color.Black,
                             fontWeight = FontWeight.Light
                         )
                         Text (
